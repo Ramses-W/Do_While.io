@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>“Do While”</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <main>
+        <h1>"Do While"</h1>
+        <img src="img/11.png" alt="">
+        <br><br>
+        <div id="resultado">
+            <script>
+                var num,factorial,i;
+
+                num=parseInt(prompt("Ingrese un número entero: "));
+                factorial=1;
+                i=1;
+
+                do {
+                    factorial*=i;
+                    i++;
+                } while (i<=num);
+
+                document.write("El factorial de " +num+ " es: " +factorial);
+            </script>
+        </div>
+        <br>
+        <footer style="display: flex; justify-content: space-evenly;">
+            <a style="text-decoration: none;" href="index2.html"><p style="background-color: black; color: white; width: 60%; margin: auto; border-radius: 20px; padding: 10px;">Problema Anterior</p></a>
+            <a style="text-decoration: none;" href="index4.html"><p style="background-color: black; color: white; width: 60%; margin: auto; border-radius: 20px; padding: 10px;">Siguiente Problema</p></a>
+        </footer>
+    </main>
+</body>
+</html>
